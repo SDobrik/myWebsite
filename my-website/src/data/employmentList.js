@@ -6,7 +6,8 @@ export default [
             endDate: 'August 2016'
         },
         location: 'Waterloo',
-        description: '',
+        description: 'Developed a graphics editor in AngularJS',
+        logo: 'imagineCommunications',
         key: 'job1'
     },
     {
@@ -16,7 +17,8 @@ export default [
             endDate: 'April 2017'
         },
         location: 'Kitchener',
-        description: '',
+        description: 'did customer oriented product design',
+        logo: 'GM',
         key: 'job2'
     },
     {
@@ -26,7 +28,8 @@ export default [
             endDate: 'December 2017'
         },
         location: 'Kitchener',
-        description: '',
+        description: 'Developed software to monitor industrial systems',
+        logo:'majikSystems',
         key: 'job3'
     }
 ]

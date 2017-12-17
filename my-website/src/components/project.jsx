@@ -4,8 +4,6 @@ import Card from 'material-ui/Card'; //would look really nice if all of the proj
 class Project extends Component {
   constructor() {
     super();
-    this.state = {
-    }
     this.followLink = this.followLink.bind(this)
   }
 
@@ -19,12 +17,12 @@ class Project extends Component {
       readme,
       image,
       link,
-    }
+    } = this.props;
     //add some event for hover where a shadow of a github logo show up and if you click it, it will take you to github
     return (
-      <Card >
+      <Card style={{height: 300, width: '30%', display: 'inline-block', margin: 10 }}>
         <h2>{name}</h2>
-        <h4>{link}</h4>
+        <h6>{link}</h6>
         <img src={image} onClick={this.followLink}/>
         <p>{readme}</p>
       </Card>

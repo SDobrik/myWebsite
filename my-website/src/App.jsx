@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import LinkIcons from './components/link_icons'
 import EmploymentHistory from './components/all_employment'
+import ProjectHistory from './components/all_projects'
 import NavBar from './components/nav_bar'
 
 class App extends Component {
@@ -18,6 +19,7 @@ class App extends Component {
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
         <LinkIcons/>
+        <ProjectHistory/>
         <EmploymentHistory/>
       </div>
     );

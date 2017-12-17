@@ -29,7 +29,7 @@ class LinkIcons extends Component {
     //maybe my photography insta
     //my resume
     return (
-      <Card>
+      <Card style={{ width: 'fit-content', padding: '5px 30px', }}>
         <p>Check out all of my different shit</p>
         <div onClick={()=> this.followLink('www.github.com/sdobrik')} style={{ display: 'inline-block' }}>
           <FontAwesome

@@ -6,20 +6,18 @@ var _ = require('lodash');
 class EmploymentHistory extends Component {//maybe change name to employment history
   render() {
     //total working time counter
-    //maybe allow filtering of employment, not sure by which attributes
-    console.log(employmentList)
+    //maybe allow filtering of employment, not sure by which attribute
     return (
       <div >
-        <h2>My Employment history</h2>
+        <h2>My Employment History</h2>
         {
-          _.map(employmentList, (job) => {//we need lodash _.map()... set all of the project data in a json
-            //might want a _.mapRight so we get most rrecent jobs first
-            console.log(job)
+          _.map(employmentList, (job) => {//see if there is a way to start from the end since that will be the most recent employment
             return (
             <Employment
               companyName={job.companyName}
               timespan={job.timespan}
               location={job.location}
+              logo={job.logo}
               description={job.description}
               key={job.key}
             />
