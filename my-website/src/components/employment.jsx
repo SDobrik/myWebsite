@@ -3,14 +3,20 @@ import Card from 'material-ui/Card'; //would look really nice if all of the proj
 
 class Employment extends Component {
   render() {
+      const {
+          companyName,
+          timespan,
+          location,
+          description
+      } = this.props
     //add some event for hover where a shadow of a github logo show up and if you click it, it will take you to github
     return (
       <Card >
         <img/>
-        <h2>{Employment.title}</h2>
-        <h4>{Employment.dates}</h4>
-        <h4>{Employment.location}</h4>
-        <p>{Employment.readme}</p>
+        <h2>{companyName}</h2>
+        <h4>{timespan.startDate + ' - '+ timespan.endDate}</h4>
+        <h4>{location}</h4>
+        <p>{description}</p> 
       </Card>
     );
   }
