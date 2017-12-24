@@ -16,6 +16,7 @@ class AllProjects extends Component {
                 name={project.name}
                 readme={project.readme}
                 image={project.img}
+                languages={project.languages}
                 link={project.link}
               />
             )

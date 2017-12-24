@@ -17,13 +17,16 @@ class Project extends Component {
       readme,
       image,
       link,
+      languages,
     } = this.props;
     //add some event for hover where a shadow of a github logo show up and if you click it, it will take you to github
+    //not sure if I like the look of putting in languages like that
     return (
       <Card style={{height: 300, width: '30%', display: 'inline-block', margin: 10 }}>
         <h2>{name}</h2>
         <h6>{link}</h6>
         <img src={image} onClick={this.followLink}/>
+        <code>{languages}</code>
         <p>{readme}</p>
       </Card>
     );

@@ -4,7 +4,7 @@ import Card from 'material-ui/Card'
 //import Linkedin from 'material-ui-icons/Linkedin'
 import Explore from 'material-ui-icons/Explore';
 import Description from 'material-ui-icons/Description';
-import FontAwesome  from 'react-fontawesome';// TODO: look up benifits of require vs import
+var FontAwesome  = require('react-fontawesome');// TODO: look up benifits of require vs import
 
 class LinkIcons extends Component {
   constructor() {
@@ -34,14 +34,16 @@ class LinkIcons extends Component {
         <div onClick={()=> this.followLink('www.github.com/sdobrik')} style={{ display: 'inline-block' }}>
           <FontAwesome
             name='github'
+            size='2x'
           />
         </div>
         <div  onClick={()=> this.followLink('www.yourTravels.io')} style={{ display: 'inline-block' }}>
           <Explore />
         </div>
-        <div onClick={()=> this.followLink('www.linkedin.com/sdobrik')} style={{ display: 'inline-block' }}>
+        <div onClick={()=> this.followLink('www.linkedin.com/sdobrik')} style={{ display: 'inline-block'}}>
           <FontAwesome
-            name='Linkedin'
+            name='linkedin-square'
+            size='2x'
           />
         </div>
         <div onClick={()=> this.followLink('./resume.html')} style={{ display: 'inline-block' }}>
