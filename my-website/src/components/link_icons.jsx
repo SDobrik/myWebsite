@@ -15,8 +15,8 @@ class LinkIcons extends Component {
   }
 
   followLink(link){
-    console.log(link)
-    //open link in new tab
+    //TODO: keep track of what links are clicked
+    window.open(link)
   }
 
   render() {
@@ -31,22 +31,22 @@ class LinkIcons extends Component {
     return (
       <Card style={{ width: 'fit-content', padding: '5px 30px', }}>
         <p>Check out all of my different shit</p>
-        <div onClick={()=> this.followLink('www.github.com/sdobrik')} style={{ display: 'inline-block' }}>
+        <div onClick={()=> this.followLink('https:www.github.com/sdobrik')} style={{ display: 'inline-block' }}>
           <FontAwesome
             name='github'
             size='2x'
           />
         </div>
-        <div  onClick={()=> this.followLink('www.yourTravels.io')} style={{ display: 'inline-block' }}>
+        <div  onClick={()=> this.followLink('https:www.yourTravels.io')} style={{ display: 'inline-block' }}>
           <Explore />
         </div>
-        <div onClick={()=> this.followLink('www.linkedin.com/sdobrik')} style={{ display: 'inline-block'}}>
+        <div onClick={()=> this.followLink('https:www.linkedin.com/in/spencerdobrik/')} style={{ display: 'inline-block'}}>
           <FontAwesome
             name='linkedin-square'
             size='2x'
           />
         </div>
-        <div onClick={()=> this.followLink('./resume.html')} style={{ display: 'inline-block' }}>
+        <div onClick={()=> this.followLink('/resume.html')} style={{ display: 'inline-block' }}>
           <Description/>
         </div>
       </Card>

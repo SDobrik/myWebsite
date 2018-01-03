@@ -8,7 +8,8 @@ class Project extends Component {
   }
 
   followLink(){
-    console.log(this.props.link)
+    //TODO: keep track of what links are clicked
+    window.open(this.props.link)
   }
 
   render() {

@@ -18,7 +18,7 @@ export default [
     {
         name: 'MyTravels',
         languages: 'js, jquery',
-        image: '',
+        image: '../img/myTravels',
         link: 'www.github.com/sdobrik/mytravels',
         readme: 'First iteration of what is now YourTravels, this was made using mostly bare js with jquery, plus googleMaps and wikiMedia APIs.',
         key: 'projectMyTravels'
