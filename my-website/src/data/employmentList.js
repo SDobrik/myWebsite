@@ -7,7 +7,7 @@ export default [
         },
         location: 'Waterloo',
         description: 'Developed a graphics editor in AngularJS',
-        logo: 'imagineCommunications',
+        logo: 'Imagine-Comms-logo.png',
         key: 'job1'
     },
     {
@@ -18,7 +18,7 @@ export default [
         },
         location: 'Kitchener',
         description: 'did customer oriented product design',
-        logo: 'GM',
+        logo: 'GMCanada.jpg',
         key: 'job2'
     },
     {
@@ -29,7 +29,7 @@ export default [
         },
         location: 'Kitchener',
         description: 'Developed software to monitor industrial systems',
-        logo:'majikSystems',
+        logo:'Majik-Logo.jpg',
         key: 'job3'
     }
 ]

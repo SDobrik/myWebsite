@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
 import Card from 'material-ui/Card'; //would look really nice if all of the projects were in cards, there might even be a material thing that can be used for the grouping
-
 class Employment extends Component {
   render() {
     const {
-          companyName,
+      companyName,
       timespan,
       location,
       logo,
@@ -19,7 +18,7 @@ class Employment extends Component {
           <h4>{location}</h4>
         </div>
         <div style={{ height: 100, display: 'inline-block' }}>
-          <img src={'../img/' + logo} />
+          <img src={require('../images/' + logo)} style={{width: '50%'}}/>
         </div>
         <div style={{ height: 100, width: '100%' }}>
           <p>{description}</p>

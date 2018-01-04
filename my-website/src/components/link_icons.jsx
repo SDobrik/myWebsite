@@ -20,6 +20,11 @@ class LinkIcons extends Component {
   }
 
   render() {
+    var buttons = {
+      display: 'inline-block',
+      cursor: 'pointer',
+      padding: 5,
+    }
     //put this in front of a background image
 
     //the Icons I currently want
@@ -29,25 +34,31 @@ class LinkIcons extends Component {
     //maybe my photography insta
     //my resume
     return (
-      <Card style={{ width: 'fit-content', padding: '5px 30px', }}>
+      <Card style={{ width: 'fit-content', padding: '5px 30px', margin:'auto'}}>
         <p>Check out all of my different shit</p>
-        <div onClick={()=> this.followLink('https:www.github.com/sdobrik')} style={{ display: 'inline-block' }}>
+        <div onClick={()=> this.followLink('https:www.github.com/sdobrik')} style={buttons} title="My Github">
           <FontAwesome
             name='github'
             size='2x'
           />
         </div>
-        <div  onClick={()=> this.followLink('https:www.yourTravels.io')} style={{ display: 'inline-block' }}>
-          <Explore />
+        <div onClick={() => this.followLink('https:www.yourTravels.io')} style={buttons} title="My Project: yourTravels">
+          <FontAwesome
+            name='globe'
+            size='2x'
+          />
         </div>
-        <div onClick={()=> this.followLink('https:www.linkedin.com/in/spencerdobrik/')} style={{ display: 'inline-block'}}>
+        <div onClick={() => this.followLink('https:www.linkedin.com/in/spencerdobrik/')} style={buttons} title="My Linkedin">
           <FontAwesome
             name='linkedin-square'
             size='2x'
           />
         </div>
-        <div onClick={()=> this.followLink('/resume.html')} style={{ display: 'inline-block' }}>
-          <Description/>
+        <div onClick={()=> this.followLink('/resume.html')} style={buttons} title="My Resume">
+          <FontAwesome
+            name='file-text'
+            size='2x'
+          />
         </div>
       </Card>
     );
