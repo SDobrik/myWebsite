@@ -35,7 +35,7 @@ class LinkIcons extends Component {
     //my resume
     return (
       <Card style={{ width: 'fit-content', padding: '5px 30px', margin:'auto'}}>
-        <p>Check out all of my different shit</p>
+        <p>Check out my stuff!</p>
         <div onClick={()=> this.followLink('https:www.github.com/sdobrik')} style={buttons} title="My Github">
           <FontAwesome
             name='github'

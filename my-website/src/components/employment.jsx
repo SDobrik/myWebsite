@@ -1,6 +1,17 @@
 import React, { Component } from 'react';
 import Card from 'material-ui/Card'; //would look really nice if all of the projects were in cards, there might even be a material thing that can be used for the grouping
 class Employment extends Component {
+  constructor() {
+    super();
+    this.followLink = this.followLink.bind(this)
+  }
+
+  followLink() {
+    //TODO: keep track of what links are clicked
+    console.log(this.props.link)
+    window.open(this.props.link)
+  }
+
   render() {
     const {
       companyName,
@@ -11,14 +22,14 @@ class Employment extends Component {
       } = this.props
     //add some event for hover where a shadow of a github logo show up and if you click it, it will take you to github
     return (
-      <Card style={{ width: '30%', display: 'inline-block', margin: 10 }}>
+      <Card style={{ width: '30%', display: 'inline-block', margin: 10, cursor: 'pointer'}} onClick={this.followLink}> 
         <h2>{companyName}</h2>
         <div style={{ height: 100, display: 'inline-block' }}>
           <h4>{timespan.startDate + ' - ' + timespan.endDate}</h4>
           <h4>{location}</h4>
         </div>
         <div style={{ height: 100, display: 'inline-block' }}>
-          <img src={require('../images/' + logo)} style={{width: '50%'}}/>
+          <img src={require('../images/' + logo)} style={{height: '100%', paddingLeft: 50}}/>
         </div>
         <div style={{ height: 100, width: '100%' }}>
           <p>{description}</p>

@@ -11,13 +11,14 @@ class EmploymentHistory extends Component {//maybe change name to employment his
       <div >
         <h2>My Employment History</h2>
         {
-          _.map(employmentList, (job) => {//see if there is a way to start from the end since that will be the most recent employment
+          _.map(employmentList, (job) => {//TODO: make the array reverse order so it has teh most recent job first
             return (
             <Employment
               companyName={job.companyName}
               timespan={job.timespan}
               location={job.location}
               logo={job.logo}
+              link={job.link}
               description={job.description}
               key={job.key}
             />
