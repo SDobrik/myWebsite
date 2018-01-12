@@ -36,25 +36,25 @@ class LinkIcons extends Component {
     return (
       <Card style={{ width: 'fit-content', padding: '5px 30px', margin:'auto'}}>
         <p>Check out my stuff!</p>
-        <div onClick={()=> this.followLink('https:www.github.com/sdobrik')} style={buttons} title="My Github">
+        <div onClick={()=> this.followLink('https://www.github.com/sdobrik')} style={buttons} title="My Github">
           <FontAwesome
             name='github'
             size='2x'
           />
         </div>
-        <div onClick={() => this.followLink('https:www.yourTravels.io')} style={buttons} title="My Project: yourTravels">
+        {/* <div onClick={() => this.followLink('https://www.yourTravels.io')} style={buttons} title="My Project: yourTravels">
           <FontAwesome
             name='globe'
             size='2x'
           />
-        </div>
-        <div onClick={() => this.followLink('https:www.linkedin.com/in/spencerdobrik/')} style={buttons} title="My Linkedin">
+        </div> */}
+        <div onClick={() => this.followLink('https://www.linkedin.com/in/spencerdobrik/')} style={buttons} title="My Linkedin">
           <FontAwesome
             name='linkedin-square'
             size='2x'
           />
         </div>
-        <div onClick={()=> this.followLink('/resume.html')} style={buttons} title="My Resume">
+        <div onClick={()=> this.followLink('/SpencerDobrikResume.pdf')} style={buttons} title="My Resume">
           <FontAwesome
             name='file-text'
             size='2x'

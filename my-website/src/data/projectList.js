@@ -3,7 +3,7 @@ export default [
         name: 'YourTravels',
         languages: 'js, React',
         image: '',
-        link: 'https://YourTravels',
+        link: 'Still under development',
         readme: 'Developed in React, uses Google Maps API and Facebook authentication. Firebase is used on the backend for hosting and the database.',
         key: 'projectYourTravels'
     },
@@ -12,7 +12,7 @@ export default [
         languages: 'js, React',
         image: '',
         link: 'https://www.github.com/sdobrik/personalWebsite',
-        readme: 'Developed in React, Firebase is used for hosting.',
+        readme: 'Developed in React, Firebase is used for hosting. Still more improvements to be made in the future.',
         key: 'projectMyPersonalWebsite'
     },
     {
