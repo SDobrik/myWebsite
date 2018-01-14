@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
-import Card from 'material-ui/Card'; //would look really nice if all of the projects were in cards, there might even be a material thing that can be used for the grouping
+import Card from 'material-ui/Card';
+var _ = require('lodash');
+var FontAwesome = require('react-fontawesome');
+
 class Employment extends Component {
   constructor() {
     super();
@@ -16,23 +19,38 @@ class Employment extends Component {
     const {
       companyName,
       timespan,
+      position,
       location,
       logo,
-      description
+      description,
+      bulletPoints
       } = this.props
     //add some event for hover where a shadow of a github logo show up and if you click it, it will take you to github
     return (
-      <Card style={{ width: '30%', display: 'inline-block', margin: 10, cursor: 'pointer'}} onClick={this.followLink}> 
+      <Card style={{ width: '30%', display: 'inline-block', margin: 10, cursor: 'pointer', verticalAlign:'top'}} onClick={this.followLink}>
         <h2>{companyName}</h2>
         <div style={{ height: 100, display: 'inline-block' }}>
-          <h4>{timespan.startDate + ' - ' + timespan.endDate}</h4>
-          <h4>{location}</h4>
+          <h4>{position}</h4>
+          <h6>{timespan.startDate + ' - ' + timespan.endDate}</h6>
+          <h6>{location}</h6>
         </div>
         <div style={{ height: 100, display: 'inline-block' }}>
-          <img src={require('../images/' + logo)} style={{height: '100%', paddingLeft: 50}}/>
+          <img src={require('../images/' + logo)} style={{ height: '100%', paddingLeft: 50 }} />
         </div>
-        <div style={{ height: 100, width: '100%' }}>
+        <div style={{ height: 'fit-content', width: '100%', textAlign:'left' }}>
           <p>{description}</p>
+          <ul>
+          {
+            _.map(bulletPoints, (bullet) => {
+              return (
+                <li>
+                  {bullet}
+                </li>
+              )
+            }
+            )
+          }
+          </ul>
         </div>
       </Card>
     );
