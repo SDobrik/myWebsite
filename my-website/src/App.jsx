@@ -18,6 +18,7 @@ class App extends Component {
         <LinkIcons/>
         <ProjectHistory/>
         <EmploymentHistory/>
+        <h4>Not interested? Check out <a target="_blank" href="http://arashrai.com:5000/randomSEwebsite?omit=Arash">this</a> guy/gal.</h4>
       </div>
     );
   }
