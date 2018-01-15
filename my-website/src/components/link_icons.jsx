@@ -54,7 +54,7 @@ class LinkIcons extends Component {
             size='2x'
           />
         </div>
-        <div onClick={()=> this.followLink('/SpencerDobrikResume.pdf')} style={buttons} title="My Resume">
+        <div onClick={() => this.followLink('https://github.com/SDobrik/myWebsite/blob/master/my-website/public/SpencerDobrikResume.pdf')} style={buttons} title="My Resume">
           <FontAwesome
             name='file-text'
             size='2x'

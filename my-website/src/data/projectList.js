@@ -11,7 +11,7 @@ export default [
         name: 'My Personal Website',
         languages: 'js, React',
         image: '',
-        link: 'https://www.github.com/sdobrik/personalWebsite',
+        link: 'https://github.com/SDobrik/myWebsite',
         readme: 'Developed in React, Firebase is used for hosting. Still more improvements to be made in the future.',
         key: 'projectMyPersonalWebsite'
     },
@@ -19,7 +19,7 @@ export default [
         name: 'MyTravels',
         languages: 'js, jquery',
         image: '../img/myTravels',
-        link: 'https://www.github.com/sdobrik/mytravels',
+        link: 'https://github.com/SDobrik/myTravels',
         readme: 'First iteration of what is now "YourTravels", this was made using mostly bare js with jquery, plus Google Maps API and wikiMedia API.',
         key: 'projectMyTravels'
     }
