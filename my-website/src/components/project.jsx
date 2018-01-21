@@ -23,7 +23,7 @@ class Project extends Component {
     //add some event for hover where a shadow of a github logo show up and if you click it, it will take you to github
     //not sure if I like the look of putting in languages like that
     return (
-      <Card style={{ height: 300, width: '30%', display: 'inline-block', margin: 10, cursor: 'pointer'}} onClick={this.followLink}>
+      <Card style={{ height: 300, width: '30%', display: 'inline-block', margin: 10, cursor: 'pointer', verticalAlign: 'top'}} onClick={this.followLink}>
         <h2>{name}</h2>
         <h6>{link}</h6>
         <img src={image}/>
