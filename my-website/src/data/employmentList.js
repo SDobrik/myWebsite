@@ -5,7 +5,7 @@ export default [
             startDate: 'May 2016',
             endDate: 'August 2016'
         },
-        location: 'Waterloo',
+        location: 'Waterloo, ON, Canada',
         position: 'Full-Stack Developer',
         description: '',
         bulletPoints: [
@@ -24,7 +24,7 @@ export default [
             startDate: 'January 2017',
             endDate: 'April 2017'
         },
-        location: 'Kitchener',
+        location: 'Kitchener, ON, Canada',
         position: 'Innovation Specialist',
         description: '',
         bulletPoints: [
@@ -45,7 +45,7 @@ export default [
             startDate: 'September 2017',
             endDate: 'December 2017'
         },
-        location: 'Kitchener',
+        location: 'Kitchener, ON, Canada',
         position: 'Front-End Developer',
         description: '',
         bulletPoints: [
@@ -59,5 +59,22 @@ export default [
         logo: 'Majik-Logo.jpg',
         link: 'https://majik.io/platform.html',
         key: 'job3'
+    },
+    {
+        companyName: 'Carrot Inc.',
+        timespan: {
+            startDate: 'May 2018',
+            endDate: 'August 2018'
+        },
+        location: 'Redwood City, CA, USA',
+        position: 'Full-Stack Engineer',
+        description: '',
+        bulletPoints: [
+            'Developing a Front-End in React',
+            'Using Node, Docker, and AWS on the backend'
+        ],
+        logo: 'Carrot-Logo.svg',
+        link: 'https://pivot.co/about-us/',
+        key: 'job4'
     }
 ]

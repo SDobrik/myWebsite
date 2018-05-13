@@ -29,13 +29,15 @@ class Employment extends Component {
     return (
       <Card style={{ width: '30%', display: 'inline-block', margin: 10, cursor: 'pointer', verticalAlign:'top'}} onClick={this.followLink}>
         <h2>{companyName}</h2>
-        <div style={{ height: 100, display: 'inline-block' }}>
-          <h4>{position}</h4>
-          <h6>{timespan.startDate + ' - ' + timespan.endDate}</h6>
-          <h6>{location}</h6>
-        </div>
-        <div style={{ height: 100, display: 'inline-block' }}>
-          <img src={require('../images/' + logo)} style={{ height: '100%', paddingLeft: 50 }} />
+        <div>
+          <div style={{ height: 100, display: 'inline-block' }}>
+            <h4>{position}</h4>
+            <h6>{timespan.startDate + ' - ' + timespan.endDate}</h6>
+            <h6>{location}</h6>
+          </div>
+          <div style={{ height: 100, display: 'inline-block' }}>
+            <img src={require('../images/' + logo)} style={{ height: '100%', paddingLeft: 50 }} />
+          </div>
         </div>
         <div style={{ height: 'fit-content', width: '100%', textAlign:'left' }}>
           <p>{description}</p>
