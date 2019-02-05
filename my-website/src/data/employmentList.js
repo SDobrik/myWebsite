@@ -70,8 +70,10 @@ export default [
         position: 'Full-Stack Engineer',
         description: '',
         bulletPoints: [
-            'Developing a Front-End in React',
-            'Using Node, Docker, and AWS on the backend'
+            'Redesigned the web messaging platform between coaches and users, saving each coach approximately two hours per week.',
+            'Developed a sleek registration experience to increase registration rate as well as app downloads.',
+            'Worked with marketing and design teams to develop a squeeze page for business customers.',
+            'Ran the daily stand-ups along with being the project manager for the sales website.'
         ],
         logo: 'Carrot-Logo.svg',
         link: 'https://pivot.co/about-us/',
