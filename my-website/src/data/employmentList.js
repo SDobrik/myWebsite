@@ -25,7 +25,7 @@ export default [
             endDate: 'April 2017'
         },
         location: 'Kitchener, ON, Canada',
-        position: 'Innovation Specialist',
+        position: 'Product Manager',
         description: '',
         bulletPoints: [
             'Followed lean development principles to innovate and iterate on designs for GM vehicles and products.',
@@ -78,5 +78,21 @@ export default [
         logo: 'Carrot-Logo.svg',
         link: 'https://pivot.co/about-us/',
         key: 'job4'
+    },
+    {
+        companyName: 'Microsoft',
+        timespan: {
+            startDate: 'January 2019',
+            endDate: 'April 2019'
+        },
+        location: 'Redmond, WA, USA',
+        position: 'Program Manager',
+        description: '',
+        bulletPoints: [
+            'Currently working on the Release and Delivery Experience team for Microsoft Office.'
+        ],
+        logo: 'Microsoft-Logo.png',
+        link: 'https://www.microsoft.com/en-us/about',
+        key: 'job5'
     }
 ]
