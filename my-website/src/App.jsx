@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import LinkIcons from './components/link_icons'
 import EmploymentHistory from './components/all_employment'
+import ExtraCurricularHistory from './components/all_extra_curriculars'
 import ProjectHistory from './components/all_projects'
 import NavBar from './components/nav_bar'
 
@@ -17,6 +18,7 @@ class App extends Component {
         </p>
         <LinkIcons/>
         <EmploymentHistory/>
+        <ExtraCurricularHistory/>
         <ProjectHistory/>
         <h4>Not interested? Check out <a target="_blank" href="http://arashrai.com:5000/randomSEwebsite?omit=Spencer">this</a> guy/gal.</h4>
       </div>
