@@ -89,7 +89,10 @@ export default [
         position: 'Program Manager',
         description: '',
         bulletPoints: [
-            'Currently working on the Release and Delivery Experience team for Microsoft Office.'
+            'Changed release processes to improve Office 365 security patch on time performance from 0% in the year prior to 83% in my three month tenure.',
+            'Developed the processes and dashboard to be able to successfully capture Office 365 bugs for commercial escalations.',
+            'Identified ways to message millions of Office users on unsupported versions in order to move them to supported versions.',
+            'Led a team of 5 engineers from across Microsoft and gave a Microsoft Research presentation on designing technology for the needs of gig economy workers.'
         ],
         logo: 'Microsoft-Logo.png',
         link: 'https://www.microsoft.com/en-us/about',
