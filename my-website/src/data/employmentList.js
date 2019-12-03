@@ -97,5 +97,22 @@ export default [
         logo: 'Microsoft-Logo.png',
         link: 'https://www.microsoft.com/en-us/about',
         key: 'job5'
+    },
+    {
+        companyName: 'Lifion by ADP',
+        timespan: {
+            startDate: 'September 2019',
+            endDate: 'November 2019'
+        },
+        location: 'New York, NY, USA',
+        position: 'Technical Product Owner',
+        description: '',
+        bulletPoints: [
+            'Worked on multiple cross-cutting initiatives and was able to manage the development required for an external team integration needed for a client go-live',
+            'These are still in progress...'
+        ],
+        logo: 'Lifion-Logo.png',
+        link: 'https://lifion.com/',
+        key: 'job6'
     }
 ]

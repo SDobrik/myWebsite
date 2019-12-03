@@ -55,7 +55,7 @@ export default [
         activityName: 'EngSoc Student Council',
         timespan: {
             startDate: 'January 2018',
-            endDate: 'Current'
+            endDate: 'December 2018'
         },
         location: 'University of Waterloo',
         position: 'Software Engineering Representative',
