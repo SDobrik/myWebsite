@@ -109,7 +109,9 @@ export default [
         description: '',
         bulletPoints: [
             'Worked on multiple cross-cutting initiatives and was able to manage the development required for an external team integration needed for a client go-live',
-            'These are still in progress...'
+            'Ran stand-ups and backlog grooming, as well as prioritization and allocation of tickets for my team',
+            'Took ownership of a project to integrate with ADP\'s existing HR software, brought the project from requirements to a production release in a time span 63% shorter than similar projects for that team.',
+            'Defined the team\'s roadmap for the following quarter, as well as designing specifications for new features.'
         ],
         logo: 'Lifion-Logo.png',
         link: 'https://lifion.com/',
