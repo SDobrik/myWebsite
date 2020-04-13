@@ -27,7 +27,7 @@ class Employment extends Component {
       } = this.props
     //add some event for hover where a shadow of a github logo show up and if you click it, it will take you to github
     return (
-      <Card style={{ width: '30%', display: 'inline-block', margin: 10, paddingBottom: '20px', cursor: 'pointer', verticalAlign:'top'}} onClick={this.followLink}>
+      <Card style={{ width: '30%', minWidth: '300px', display: 'inline-block', margin: 10, paddingBottom: '20px', cursor: 'pointer', verticalAlign:'top'}} onClick={this.followLink}>
         <h2>{companyName}</h2>
         <div>
           <div style={{ height: 100, display: 'inline-block' }}>
