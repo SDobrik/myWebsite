@@ -11,6 +11,7 @@ class EmploymentHistory extends Component {//maybe change name to employment his
     return (
       <div >
         <h2>My Employment History</h2>
+        <div style={{ display: "inline-flex", flexWrap: "wrap", justifyContent:"space-evenly"}}>
         {
           _.map(employmentList, (job) => {
             return (
@@ -20,6 +21,7 @@ class EmploymentHistory extends Component {//maybe change name to employment his
           )
           })
         }
+        </div>
       </div>
     );
   }

@@ -9,7 +9,7 @@ class AllExtraCurriculars extends Component {
     _.reverse(extraCurricularList);
     return (
       <div >
-        <h2>My Extra Curriculars</h2>
+        <h2>University Extra Curriculars</h2>
         {
           _.map(extraCurricularList, (ec) => {
             return (

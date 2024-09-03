@@ -27,12 +27,6 @@ class LinkIcons extends Component {
     }
     //put this in front of a background image
 
-    //the Icons I currently want
-    //connect to my perssonal Mytravels
-    //github
-    //linkedin
-    //maybe my photography insta
-    //my resume
     return (
       <Card style={{ width: 'fit-content', padding: '5px 30px', margin:'auto'}}>
         <p>Check out my stuff!</p>
@@ -54,12 +48,12 @@ class LinkIcons extends Component {
             size='2x'
           />
         </div>
-        <div onClick={() => this.followLink('https://github.com/SDobrik/myWebsite/blob/master/my-website/public/SpencerDobrikResume.pdf')} style={buttons} title="My Resume">
+        {/* <div onClick={() => this.followLink('https://github.com/SDobrik/myWebsite/blob/master/my-website/public/SpencerDobrikResume.pdf')} style={buttons} title="My Resume">
           <FontAwesome
             name='file-text'
             size='2x'
           />
-        </div>
+        </div> */}
       </Card>
     );
   }

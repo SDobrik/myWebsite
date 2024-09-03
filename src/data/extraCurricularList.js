@@ -72,7 +72,7 @@ export default [
         activityName: 'Software Engineering Society',
         timespan: {
             startDate: 'March 2018',
-            endDate: 'Current'
+            endDate: 'April 2020'
         },
         location: 'University of Waterloo',
         position: 'Founder and A-Soc President',
@@ -82,7 +82,7 @@ export default [
             'Recruited students to help found and run the first iteration of the society.',
             'Organized meeting, as well as the tasks and responsibilities for the representatives of the society.',
             'Created a Constitution which was ratified with 94% of votes in favour, and a voter turnout of 42.5%.',
-            'Ran three events which were attended by ~50% of all Software Engineering students in school that term.'
+            'Ran two events per term which were attended by ~50% of all Software Engineering students in school.'
         ],
         logo: '',
         link: 'https://www.facebook.com/uwsesoc/',

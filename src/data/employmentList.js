@@ -7,6 +7,7 @@ export default [
         },
         location: 'Waterloo, ON, Canada',
         position: 'Full-Stack Developer',
+        isInternship: true,
         description: '',
         bulletPoints: [
             'Rapid improvement in skills over a 4 month period allowed me to take on the responsibilities of a full time employee.',
@@ -26,6 +27,7 @@ export default [
         },
         location: 'Kitchener, ON, Canada',
         position: 'Product Manager',
+        isInternship: true,
         description: '',
         bulletPoints: [
             'Followed lean development principles to innovate and iterate on designs for GM vehicles and products.',
@@ -47,6 +49,7 @@ export default [
         },
         location: 'Kitchener, ON, Canada',
         position: 'Front-End Developer',
+        isInternship: true,
         description: '',
         bulletPoints: [
             'Developed software to help clients monitor, analyze, and optimize their factory processes.',
@@ -68,6 +71,7 @@ export default [
         },
         location: 'Redwood City, CA, USA',
         position: 'Full-Stack Engineer',
+        isInternship: true,
         description: '',
         bulletPoints: [
             'Redesigned the web messaging platform between coaches and users, saving each coach approximately two hours per week.',
@@ -87,6 +91,7 @@ export default [
         },
         location: 'Redmond, WA, USA',
         position: 'Program Manager',
+        isInternship: true,
         description: '',
         bulletPoints: [
             'Changed release processes to improve Office 365 security patch on time performance from 0% in the year prior to 83% in my three month tenure.',
@@ -106,6 +111,7 @@ export default [
         },
         location: 'New York, NY, USA',
         position: 'Technical Product Owner',
+        isInternship: true,
         description: '',
         bulletPoints: [
             'Worked on multiple cross-cutting initiatives and was able to manage the development required for an external team integration needed for a client go-live',
@@ -116,5 +122,28 @@ export default [
         logo: 'Lifion-Logo.png',
         link: 'https://lifion.com/',
         key: 'job6'
+    },
+    {
+        companyName: 'SuperVisas',
+        timespan: {
+            startDate: 'June 2020',
+            endDate: 'June 2024'
+        },
+        location: 'San Diego, CA, USA',
+        position: 'Co-Founder and CTO',
+        isInternship: false,
+        description: 'SuperVisas is a platform that enables a turbotax-like experience when applying for and maintaing immigration status in the United States and Canada. SuperVisas was accelerated at Velocity and Forum Ventures, leading to a raise of over $2M from VC and PE firms that have over $5B AUM.',
+        bulletPoints: [
+            'Leveraged GPT-4 and OCR to create and deploy a Turbotax-like experience for study permit applications. This innovation reduced processing times by 80% and cut costs by 90%.',
+            'Defined an AI strategy that enabled us to immediately leverage GPT-3, reducing application filling time by 30%.',
+            'Hired and managed a team of 5 developers, ensuring team productivity with a very low turnover rate.',
+            'Collaborated closely with sales, marketing, operations, and leadership teams to launch in a new market in under 6 months.',
+            'Led the ideation, research, development and long-term maintenance of a product that had over 80k users receive tailored immigration guidance and generated over $1M in 3 years.',
+            'Architected a platform that worked in four languages and in highly regulated locations with data locality requirements.',
+            'Led the definition and execution of the product roadmap using Agile principles, strategically pivoting to capitalize on emerging technology advancements and adapt to legislative changes.'
+        ],
+        logo: 'SuperVisas-Square.png',
+        link: 'https://supervisas.com/',
+        key: 'job7'
     }
 ]

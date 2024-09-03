@@ -20,7 +20,7 @@ class App extends Component {
         <EmploymentHistory/>
         <ExtraCurricularHistory/>
         <ProjectHistory/>
-        <h4>Not interested? Check out <a target="_blank" href="http://arashrai.com:5000/randomSEwebsite?omit=Spencer">this</a> guy/gal.</h4>
+        
       </div>
     );
   }
